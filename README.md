@@ -1,11 +1,36 @@
 
-# design-tokens-tools
+# Design Tokens Tools (DTT)
+
+**DTT** é um conjunto de ferramentas modulares para transformar e integrar design tokens em múltiplos formatos como TypeScript, CSS custom properties e JSON.
+
+Projetado como uma engrenagem de um ecossistema maior, o DTT impulsiona consistência, performance e integração entre times de design e desenvolvimento.
+
+Este monorepo segue o princípio de responsabilidade única: tudo relacionado à geração, transformação e integração de design tokens vive aqui — seja aplicação web, CLI, microfrontend ou integrações futuras.
 
 Ferramenta open-source para transformar arquivos JSON contendo design tokens em múltiplos formatos como TypeScript, CSS custom properties e JSON. O objetivo principal é melhorar a DX para projetos com Design Systems reutilizáveis e integrados.
 
 Este monorepo segue o princípio de responsabilidade única: tudo relacionado à geração de tokens vive aqui — seja aplicação web, CLI ou microfrontend.
 
 ---
+
+
+---
+
+## ✨ Manifesto DTT
+
+Design Tokens Tools não é apenas um gerador. É uma engrenagem fundamental em um motor maior de consistência e qualidade.
+
+Acreditamos que design tokens são a linguagem universal entre design e código. Eles não são apenas variáveis — são **contratos vivos** entre intenção e entrega.
+
+Criamos o DTT para:
+
+- **Conectar mundos:** unificar design, código e documentação em uma estrutura comum
+- **Promover consistência:** garantir que a identidade visual seja declarada de forma padronizada e confiável
+- **Aumentar a performance:** reduzir retrabalho com geração automatizada de estruturas reutilizáveis
+- **Declarar qualidade:** transformar tokens em código com tipagem, validação e clareza
+
+**DTT** é mais que uma ferramenta. É a base de uma sinergia declarada entre contextos.
+
 
 ## 🚀 Roadmap
 
