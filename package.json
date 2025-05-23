@@ -1,0 +1,49 @@
+{
+  "name": "design-tokens-tools",
+  "version": "0.0.1",
+  "description": "Ferramentas modulares para geração, transformação e integração de design tokens em múltiplos formatos. Inclui app web, CLI e microfrontend.",
+  "license": "MIT",
+  "author": {
+    "name": "Rogério O. Yokoi",
+    "url": "https://rogerioyokoi.dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rogerioyokoi/design-tokens-tools"
+  },
+  "bugs": {
+    "url": "https://github.com/rogerioyokoi/design-tokens-tools/issues"
+  },
+  "homepage": "https://github.com/rogerioyokoi/design-tokens-tools#readme",
+  "keywords": [
+    "design-tokens",
+    "design-system",
+    "token-generator",
+    "cli-tool",
+    "pnpm-workspaces",
+    "typescript",
+    "vite",
+    "microfrontend"
+  ],
+  "main": "index.js",
+  "packageManager": "pnpm@10.11.0",
+  "private": true,
+  "engines": {
+    "node": ">=22.16.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "pnpm -r dev",
+    "dev:app": "pnpm --filter app dev",
+    "dev:cli": "pnpm --filter cli dev",
+    "dev:core": "pnpm --filter core dev",
+    "dev:mfe": "pnpm --filter mfe dev",
+    "build": "pnpm -r build",
+    "build:app": "pnpm --filter app build",
+    "build:cli": "pnpm --filter cli build",
+    "build:core": "pnpm --filter core build",
+    "build:mfe": "pnpm --filter mfe build"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "mfe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "echo 'dev script from package/mfe'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.11.0",
+  "dependencies": {
+    "app": "workspace:*",
+    "core": "workspace:*"
+  }
+}
